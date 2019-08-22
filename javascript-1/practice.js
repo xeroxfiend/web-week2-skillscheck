@@ -203,5 +203,5 @@ const enemies = people.filter(function(el) {
 const totallyAwesome = people.reduce(function(acc, curValue) {
     console.log(acc.awesomeLevel)
         // console.log(curValue.awesomeLevel)
-    return acc.awesomeLevel + curValue.awesomeLevel
+    return acc + curValue.awesomeLevel
 }, 0)
